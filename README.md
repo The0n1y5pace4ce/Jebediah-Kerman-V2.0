@@ -1,6 +1,6 @@
 JEBEDIAH KERMAN
 
-This is the source code of the bot, jebediah kerman, a bot made by TheSpaceAce#2107 for my worn server, The Space Lounge.
+This is the source code of the bot, jebediah kerman, a bot made by TheSpaceAce#2107 for my own server, The Space Lounge.
 
 How to setup:
 
