@@ -1,0 +1,6 @@
+{
+    "Token": "BOT_TOKEN",
+    "Database": "MONGOBD_DATABASE_LOGIN",
+    "staff": "STAFF_ID",
+    "ownerIDS": ["OWNER_ID"]
+}
