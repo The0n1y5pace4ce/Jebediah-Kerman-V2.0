@@ -1,5 +1,6 @@
 # Jebediah Kerman
 > * This is my personal discord bot, made for my server, The Space Lounge, Jebediah Kerman includes many commands, as well as a fully working music system and more!
+> * It is made by TheSpaceAce#2107 on Discord
 
 # Installation: 
 ### 1. Download the code, or use git clone
@@ -25,4 +26,4 @@
 
 ### IMPORTANT: MAKE SURE TO GO THROUGH THE CODE AND CHANGE ANY VARIABLE TO THE VARIABLE YOU WILL BE USING
 
-# [My Discord server/](https://discord.gg/AM787M44au)
+# [My Discord server](https://discord.gg/AM787M44au)
