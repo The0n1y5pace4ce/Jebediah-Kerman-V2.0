@@ -4,6 +4,7 @@
     "@discordjs/voice": "^0.8.0",
     "@distube/soundcloud": "^1.1.0",
     "@distube/spotify": "^1.1.0",
+    "@distube/ytdl-core": "^4.10.0",
     "@iamtraction/google-translate": "^1.1.2",
     "ascii-table": "^0.0.9",
     "axios": "^0.25.0",
@@ -37,13 +38,22 @@
     "ytdl-core": "^4.10.0"
   },
   "name": "v13_alt",
-  "version": "1.0.0",
+  "version": "1.2.5",
   "main": "./Structures/index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "TheSpaceAce",
   "license": "ISC",
-  "description": ""
+  "description": "> * This is my personal discord bot, made for my server, The Space Lounge, Jebediah Kerman includes many commands, as well as a fully working music system and more! > * It is made by TheSpaceAce#2107 on Discord",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The0n1y5pace4ce/Jebediah-Kerman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The0n1y5pace4ce/Jebediah-Kerman/issues"
+  },
+  "homepage": "https://github.com/The0n1y5pace4ce/Jebediah-Kerman#readme"
 }
