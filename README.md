@@ -27,3 +27,5 @@
 ### IMPORTANT: MAKE SURE TO GO THROUGH THE CODE AND CHANGE ANY VARIABLE TO THE VARIABLE YOU WILL BE USING
 
 # [My Discord server](https://discord.gg/AM787M44au)
+
+> Code will be in the development branch until tested and released
