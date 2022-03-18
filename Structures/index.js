@@ -1,4 +1,5 @@
-const { intents, Collection } = require('discord.js');
+const { Client, Collection } = require('discord.js');
+const client = new Client({intents: 32767});
 const DiscordJS = require('discord.js');
 const { Mongoose } = require('mongoose');
 const { Token } = require("../Structures/config.json");
@@ -7,16 +8,6 @@ const { glob } = require('glob');
 const Ascii = require('ascii-table');
 const { table } = require('console');
 const PG = promisify(glob);
-
-const client = new DiscordJS.Client({
-    intents: [
-        "GUILDS",
-        "GUILD_MESSAGES",
-        "GUILD_BANS",
-        "GUILD_MESSAGE_REACTIONS",
-        "GUILD_VOICE_STATES"
-    ]
-})
 
 const { DisTube } = require('distube');
 const { SpotifyPlugin } = require('@distube/spotify');
