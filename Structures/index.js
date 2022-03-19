@@ -26,10 +26,12 @@ client.discordTogether = new DiscordTogether(client);
 
 
 client.commands = new Collection();
+client.prefixcommands = new Collection();
 
-["Events", "Commands"].forEach((handler) => {
+["Events", "Commands", "PrefixCommands"].forEach((handler) => {
   require(`./Handlers/${handler}`)(client, PG, Ascii);
 });
+require("./Handlers/Modal")(client);
 
 
 process.on('unhandledRejection', error => { console.error()})
