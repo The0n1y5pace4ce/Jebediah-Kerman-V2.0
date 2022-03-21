@@ -1,4 +1,5 @@
 const { Client, CommandInteraction, MessageEmbed, interaction } = require("discord.js");
+const devs = require('../../Structures/config.json')
 
 module.exports = {
     name: "interactionCreate",
@@ -14,6 +15,12 @@ module.exports = {
                 .setColor("RED")
                 .setDescription("⛔️ An error occurred while running this command")
             ]}) && client.commands.delete(interaction.commandName);
+
+            
+
+            if(command.devsOnly === true) {  
+                if(!devs.includes(interaction.member.id)) return interaction.reply({ content: "You can't use this command!", ephemeral: true});
+             }
 
             command.execute(interaction, client)
         }
