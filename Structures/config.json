@@ -2,6 +2,6 @@
     "Token": "BOT_TOKEN",
     "Database": "MONGOBD_DATABASE_LOGIN",
     "staff": "STAFF_ID",
-    "ownerIDS": ["OWNER_ID"],
-    "Prefix": "?"
+    "Prefix": "?",
+    "devs": ["656306365534437386"]
 }
