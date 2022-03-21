@@ -21,7 +21,7 @@
 ### 5. invite the bot to your server 
 > ```
 > Go to the oAuth2 tab in the applications and create an invite
-
+> ```
 ### 6. Run the bot!
 
 ### IMPORTANT: MAKE SURE TO GO THROUGH THE CODE AND CHANGE ANY VARIABLE TO THE VARIABLE YOU WILL BE USING
